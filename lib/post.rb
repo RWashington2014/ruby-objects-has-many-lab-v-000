@@ -13,9 +13,9 @@ class Post
       self.author.name
     end
 
-    def some_post
-      puts self.author.name
-      puts self.author.posts
-    end
+    #def some_post
+    #  puts self.author.name
+    #  puts self.author.posts
+    #end
 
 end
