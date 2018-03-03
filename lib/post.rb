@@ -9,11 +9,6 @@ class Post
       self.title = self.name
     end
 
-    def author
-  
-
-    end
-
     def author_name
 
 
