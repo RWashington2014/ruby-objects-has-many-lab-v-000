@@ -20,7 +20,7 @@ class Author
   def add_post_by_title(post)
      item = Post.new(post)
     @posts << item
-    
+    item.author = self
     @@post_count += 1
   end
 
