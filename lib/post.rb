@@ -17,4 +17,4 @@ class Post
       end
     end
 
-end
+end # =>  End Post Class
