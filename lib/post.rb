@@ -10,8 +10,7 @@ class Post
     end
 
     def author
-      author = Author.new
-      @author = author.name
+  
 
     end
 
