@@ -9,6 +9,12 @@ class Post
       self.title = self.name
     end
 
+    def author
+      author = Author.new
+      @author = author.name
+
+    end
+
     def author_name
 
 
