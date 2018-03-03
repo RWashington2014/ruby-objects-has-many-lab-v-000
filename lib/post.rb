@@ -15,10 +15,8 @@ class Post
     end
 
     def some_post
-
-      @author_name = self.author
-      post = self.title
-      @author_name + post
+      puts self.author.name
+      puts self.author.posts
     end
 
 end
