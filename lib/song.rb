@@ -11,9 +11,5 @@ class Song
     else
       nil
     end
-
   end
-
-
-
-end
+end # => End Song Class
